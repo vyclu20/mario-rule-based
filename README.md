@@ -20,5 +20,7 @@ All the rules follow a similar pattern where if an obstacle is detected within 7
 > If a block is directly in front of the agent, stop moving right and jump over the block.
 > If there is a gap in the ground nearby the agent and the agent is on the ground, jump over the gap.
 
-gym-super-mario-bros environment Copyright (c) 2018 Christian Kauten included.
+![screenshot](grainy.png)
+
+gym-super-mario-bros environment Copyright (c) 2018 Christian Kauten included. I have not included anything else from the original folder.
 
