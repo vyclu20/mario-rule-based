@@ -15,9 +15,13 @@ The Rule-Based agent makes use of the OpenCV code (provided by Lauren Gee) to ex
 All the rules follow a similar pattern where if an obstacle is detected within 70 pixels of the agent’s coordinates, it will jump and continue on to the right. The specific rules are as follows:
 
 > If no obstacles are detected, keep moving right.
+> 
 > If a pipe is detected in front, stop moving and jump over the pipe.
+> 
 > If an enemy is detected in the same x-coord and around 10 pixels above the agent, stop moving and jump over the enemy.
+> 
 > If a block is directly in front of the agent, stop moving right and jump over the block.
+> 
 > If there is a gap in the ground nearby the agent and the agent is on the ground, jump over the gap.
 
 ![screenshot](grainy.png)
